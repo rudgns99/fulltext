@@ -1,0 +1,841 @@
+﻿
+/* 본문 기본 스타일 시작 */
+
+body, table, tr, td, input, form, div, span, select, textarea, blockquote
+{
+    font-size: 12px;
+    line-height: 12pt;
+    font-family: 맑은 고딕,Arial, Helvetica;
+    color: #606060;
+    -ms-word-break: break-all;
+    -ms-scrollbar-face-color: #DDDDDD;
+    -ms-scrollbar-shadow-color: #DDDDDD;
+    -ms-scrollbar-highlight-color: #F6F6F6;
+    -ms-scrollbar-background-color: #F6F6F6;
+    -ms-scrollbar-3dlight-color: #818181;
+    -ms-scrollbar-darkshadow-color: #818181;
+    -ms-scrollbar-track-color: #EAEAEA;
+    -ms-scrollbar-arrow-color: #ffffff;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+table
+{
+    border: 0;
+    border-spacing: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+A:link
+{
+    color: #369;
+    text-decoration: none;
+}
+A:visited
+{
+    color: #369;
+    text-decoration: none;
+}
+A:active
+{
+    color: #FF0066;
+    text-decoration: none;
+}
+A:hover
+{
+    color: #fc7404;
+    text-decoration: underline;
+}
+img
+{
+    border: 0;
+}
+input
+{
+    background-color: #ffffff;
+    color: black;
+    font-size: 10pt;
+}
+.subject1
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: #003399;
+}
+.sub_subject
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.sub_subject_blue
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: #506e9f;
+}
+
+
+.default_tb
+{
+    width: 765px;
+}
+.default_th
+{
+    border: solid 1px #cccccc;
+    background-color: #eff4ff;
+}
+.default_td
+{
+    border: solid 1px #cccccc;
+    padding-left: 5px;
+}
+.default_td_no
+{
+    border: solid 1px #cccccc;
+    text-align: center;
+}
+
+
+/*버튼*/
+
+.button_gray
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_gray.gif);
+    border: none;
+    width: 70px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666666;
+    text-align: center;
+    vertical-align: middle;
+}
+.button_gray2
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_gray_2.gif);
+    border: none;
+    width: 82px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666666;
+    text-align: center;
+    vertical-align: middle;
+}
+.button_gray3
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_gray_3.gif);
+    border: none;
+    width: 92px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666666;
+    text-align: center;
+    vertical-align: middle;
+}
+.button_orange0
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_orange_0.gif);
+    border: none;
+    width: 52px;
+    height: 24px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.button_orange
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_orange.gif);
+    border: none;
+    width: 70px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.button_orange2
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_orange_2.gif);
+    border: none;
+    width: 82px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.button_orange3
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_orange_3.gif);
+    border: none;
+    width: 92px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.button_blue3
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_blue_3.gif);
+    border: none;
+    width: 92px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.button_blue4
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_blue_4.gif);
+    border: none;
+    width: 105px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: top;
+}
+.button_blue5
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_blue_5.gif);
+    border: none;
+    width: 129px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: top;
+}
+.button_sky
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_sky.gif);
+    border: none;
+    width: 70px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.button_sky2
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_sky_2.gif);
+    border: none;
+    width: 82px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.button_sky3
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_sky_3.gif);
+    border: none;
+    width: 92px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.button_green
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_green.gif);
+    border: none;
+    width: 70px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.button_green2
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_green_2.gif);
+    border: none;
+    width: 82px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.button_green3
+{
+    cursor: pointer;
+    background-image: url(/Img/button/btn_green_3.gif);
+    border: none;
+    width: 92px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.btn_2
+{
+    color: #666666;
+    padding-left: 17px;
+    font-size: 11px;
+    vertical-align: middle;
+    padding-top: 3px;
+}
+.button_filedel
+{
+    cursor: pointer;
+    background-image: url(/Img/button/but_filedel.gif);
+    border: none;
+    width: 38px;
+    height: 18px;
+    vertical-align: bottom;
+}
+.button_add
+{
+    cursor: pointer;
+    background-image: url(/Img/button/plus.gif);
+    border: none;
+    width: 38px;
+    height: 18px;
+    vertical-align: bottom;
+}
+.button_cancel
+{
+    cursor: pointer;
+    background-image: url(/Img/button/but_cancel.gif);
+    border: none;
+    width: 38px;
+    height: 18px;
+    vertical-align: bottom;
+}
+.button_member_view
+{
+    cursor: pointer;
+    background-image: url(/Img/button/staff_look.gif);
+    border: none;
+    width: 71px;
+    height: 22px;
+    vertical-align: bottom;
+}
+.button_detail_spec
+{
+    cursor: pointer;
+    background-image: url(/Img/button/detail_look.gif);
+    border: none;
+    width: 71px;
+    height: 22px;
+    vertical-align: bottom;
+}
+.but_edit
+{
+    cursor: pointer;
+    background-image: url(/Img/button/but_edit.gif);
+    border: none;
+    width: 38px;
+    height: 18px;
+    vertical-align: bottom;
+}
+.button_corpupdate
+{
+    cursor: pointer;
+    background-image: url(/Img/button/storeinfo_modify.gif);
+    border: none;
+    width: 94px;
+    height: 21px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+/*테이블 블루*/
+.board2_top_left
+{
+    border-right: 1px solid #CCCCCC;
+    border-top: 2px solid #8bbedb;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 12px;
+    font-weight: bold;
+    color: #54637e;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    background-color: #eff4ff;
+    text-align: left;
+    text-align: left;
+}
+.board2_top_right
+{
+    border-top: 2px solid #8bbedb;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 12px;
+    font-weight: bold;
+    color: #54637e;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    text-align: left;
+}
+.board2_bottom_right
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    text-align: left;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCCCCC;
+}
+.board2_bottom_left
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    background-color: #eff4ff;
+    text-align: left;
+    border-right-color: #CCCCCC;
+    border-bottom-color: #CCCCCC;
+    font-size: 12px;
+    font-weight: bold;
+    color: #54637e;
+}
+.board3_top_left
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #54637e;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    border-top-width: 2px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #8bbedb;
+    background-color: #eff4ff;
+    text-align: center;
+    border-left-color: #CCCCCC;
+    border-bottom-color: #CCCCCC;
+}
+.board3_top_center
+{
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    border-top-width: 2px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #8bbedb;
+    background-color: #eff4ff;
+    text-align: center;
+    border-bottom-color: #CCCCCC;
+}
+.board3_top_right
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #54637e;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    border-top-width: 2px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #8bbedb;
+    background-color: #eff4ff;
+    text-align: center;
+    border-right-color: #CCCCCC;
+    border-bottom-color: #CCCCCC;
+}
+
+/*테이블 블루*/
+
+.Blue_boarder_line
+{
+    border: solid 2px #8bbedb;
+    color: #54637e;
+}
+.Blue_boarder_header_cell
+{
+    background-color: #eff4ff;
+    border-right: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+    color: #54637e;
+    font-weight: bold;
+}
+.Blue_boarder_body_cell
+{
+    border-right: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+    color: #54637e;
+}
+.Blue_boarder_subject
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #2b548a;
+}
+.Blue_boarder_title
+{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #003399;
+}
+.Blue_boarder_sub_title
+{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #003399;
+}
+
+.Blue_boarder_empty
+{
+    background-color: #eff4ff;
+    text-align: center;
+    font-weight: bold;
+    color: #54637e;
+}
+.pager span
+{
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+#lv_list tr td
+{
+    border: solid 1px #cccccc;
+}
+#lv_list tr th
+{
+    border: solid 1px #cccccc;
+    background-color: #eff4ff;
+}
+#lv_list tr td table tr td
+{
+    border: none;
+}
+
+#DataPager1
+{
+    display: inline;
+}
+#DataPager1 span
+{
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+.copyright
+{
+    font-family: 맑은 고딕,Arial, Helvetica;
+    font-size: 9px;
+    color: #666666;
+    padding-top: 5px;
+}
+
+
+.pager
+{
+    font-size: 12px;
+    font-family: 맑은 고딕,Arial, Helvetica;
+}
+.pager A:link
+{
+    color: #777777;
+    text-decoration: none;
+}
+.pager A:visited
+{
+    color: #777777;
+    text-decoration: none;
+}
+.pager A:active
+{
+    color: #777777;
+    text-decoration: none;
+}
+.pager A:hover
+{
+    color: #777777;
+    text-decoration: none;
+}
+.pager font
+{
+    font-weight: bold;
+    color: #436997;
+    font-size: 13px;
+}
+
+.Report_AS_line
+{
+    border-top: solid 2px #eff4ff;
+    color: #eff4ff;
+    border-left: solid 1px #CCCCCC;
+    border-right: solid 1px #CCCCCC;
+    border-bottom: none;
+}
+
+/*tab*/
+.tab_c
+{
+    width: 100%;
+}
+.tab_c_l
+{
+    width: 10px;
+    height: 30px;
+    background: url(../Img/bg/tab_c_l.gif) no-repeat;
+}
+.tab_c_c
+{
+    background: url(../Img/bg/tab_c_c.gif);
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0px 5px;
+    font-weight: bold;
+}
+.tab_c_r
+{
+    width: 10px;
+    background: url(../Img/bg/tab_c_r.gif) no-repeat;
+    text-align: right;
+}
+
+.tab_d
+{
+    width: 100%;
+}
+.tab_d_l
+{
+    width: 10px;
+    height: 30px;
+    background: url(../Img/bg/tab_d_l.gif) no-repeat;
+}
+.tab_d_c
+{
+    background: url(../Img/bg/tab_d_c.gif);
+    text-align: center;
+    color: #002157;
+    padding: 0px 5px;
+    font-weight: bold;
+}
+.tab_d_r
+{
+    width: 10px;
+    background: url(../Img/bg/tab_d_r.gif) no-repeat;
+    text-align: right;
+}
+
+/* sub_title */
+.sub_t
+{
+    height: 24px;
+    color: #1a76b2;
+    background: url(../Img/icon/sub_t_icon.gif) no-repeat;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*2차 테이블 블루*/
+.table2_top
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    border-top-width: 2px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #8bbedb;
+    background-color: #76a2d9;
+    text-align: left;
+    border-right-color: #CCCCCC;
+    border-bottom-color: #CCCCCC;
+}
+.table2_left1
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    background-color: #efefef;
+    text-align: left;
+    border-right-color: #CCCCCC;
+    border-bottom-color: #CCCCCC;
+    font-size: 12px;
+    font-weight: bold;
+    color: #54637e;
+}
+.table2_left2
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    background-color: #f6f6f6;
+    text-align: left;
+    border-right-color: #CCCCCC;
+    border-bottom-color: #CCCCCC;
+    font-size: 12px;
+    font-weight: bold;
+    color: #54637e;
+}
+
+
+/* 메시지 전송 관련 테이블 블루 */
+.table3_top
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    text-align: center;
+    border-top-width: 2px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    background-color: #eff4ff;
+    text-align: left;
+    border-right-color: #CCCCCC;
+    border-bottom-color: #CCCCCC;
+    border-left-color: #CCCCCC;
+    border-top-color: #CCCCCC;
+}
+.table4_top
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    text-align: center;
+    border-top-width: 2px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    text-align: left;
+    border-right-color: #CCCCCC;
+    border-bottom-color: #CCCCCC;
+    border-left-color: #CCCCCC;
+    border-top-color: #CCCCCC;
+}
+.table5_top
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    text-align: center;
+    border-top-width: 2px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    text-align: left;
+    border-right-color: #CCCCCC;
+    border-bottom-color: #CCCCCC;
+    border-left-color: #CCCCCC;
+    border-top-color: #CCCCCC;
+}
+
+/* 리스트 테이블 */
+.lv_list
+{
+    border: solid 2px #8bbedb;
+    color: #54637e;
+}
+.lv_list tr td
+{
+    border: solid 1px #cccccc;
+}
+.lv_list tr th
+{
+    border: solid 1px #cccccc;
+    background-color: #eff4ff;
+}
+.lv_list tr td table tr td
+{
+    border: none;
+}
